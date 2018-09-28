@@ -1,0 +1,8 @@
+auto generated, do not change !!!! 
+
+HOST : taking
+
+path:	desc:
+
+BeeComp://taking/talking		听听堂
+

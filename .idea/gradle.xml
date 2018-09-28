@@ -9,6 +9,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/base" />
+            <option value="$PROJECT_DIR$/comp_login" />
+            <option value="$PROJECT_DIR$/comp_talking" />
+            <option value="$PROJECT_DIR$/router-anno" />
+            <option value="$PROJECT_DIR$/router-api" />
+            <option value="$PROJECT_DIR$/router-compiler" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

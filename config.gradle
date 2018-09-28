@@ -1,0 +1,11 @@
+// Version consistent control, define versions in a single place
+// 每次修改版本号都要添加修改时间
+ext {
+//    compileSdkVersion: 27
+//    buildToolsVersion: "23.0.2"
+//    minSdkVersion    : 14
+//    targetSdkVersion : 27
+//    versionCode : 1
+//    versionName : "1.0"
+
+}

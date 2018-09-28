@@ -1,0 +1,10 @@
+auto generated, do not change !!!! 
+
+HOST : login
+
+path:	desc:
+
+BeeComp://login/login		登陆界面
+
+BeeComp://login/register		注册界面
+

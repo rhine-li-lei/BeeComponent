@@ -1,0 +1,8 @@
+auto generated, do not change !!!! 
+
+HOST : app
+
+path:	desc:
+
+BeeComp://app/main		主界面
+

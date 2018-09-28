@@ -4,6 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BeeComponent.iml" filepath="$PROJECT_DIR$/BeeComponent.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comp_login/comp_login.iml" filepath="$PROJECT_DIR$/comp_login/comp_login.iml" />
+      <module fileurl="file://F:\GitFile\github\BeeComponent\comp_talking\comp_taking.iml" filepath="F:\GitFile\github\BeeComponent\comp_talking\comp_taking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comp_talking/comp_talking.iml" filepath="$PROJECT_DIR$/comp_talking/comp_talking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/router-anno/router-anno.iml" filepath="$PROJECT_DIR$/router-anno/router-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/router-api/router-api.iml" filepath="$PROJECT_DIR$/router-api/router-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/router-compiler/router-compiler.iml" filepath="$PROJECT_DIR$/router-compiler/router-compiler.iml" />
     </modules>
   </component>
 </project>
