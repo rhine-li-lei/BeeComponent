@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
-//apply from: "$rootDir/config.gradle"
 
 android {
     compileSdkVersion rootProject.ext.android.compileSdkVersion
+
     defaultConfig {
         applicationId rootProject.ext.android.applicationId
         minSdkVersion rootProject.ext.android.minSdkVersion

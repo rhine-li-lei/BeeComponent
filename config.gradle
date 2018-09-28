@@ -3,6 +3,7 @@
 ext {
     android = [
             // system
+            gradleVersion    : "3.2.0",
             compileSdkVersion: 27,
             applicationId    :"com.lilei.beecomponent",
             minSdkVersion    : 14,
@@ -19,6 +20,8 @@ ext {
             junit       : "4.12",
             runner      : "1.0.2",
             espresso_core   : "3.0.2",
+
+            javapoet    : "1.9.0",
     ]
 
 

@@ -14,7 +14,7 @@ dependencies {
     implementation project(':router-anno')
 
     implementation 'com.google.auto.service:auto-service:1.0-rc2'
-    implementation 'com.squareup:javapoet:1.9.0'
+    implementation "com.squareup:javapoet:$rootProject.ext.dependencies.javapoet"
 }
 
 sourceCompatibility = "1.7"
