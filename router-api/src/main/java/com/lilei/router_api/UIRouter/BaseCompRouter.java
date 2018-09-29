@@ -77,11 +77,14 @@ public abstract class BaseCompRouter implements IComponentRouter {
         }
         List<String> pathSegments = uri.getPathSegments();
         String path = "/" + TextUtils.join("/", pathSegments);
-        Log.d("TAG", "openUri: "+path);
         if (routeMapper.containsKey(path)) {
             Class target = routeMapper.get(path);
             if (bundle == null) {
                 bundle = new Bundle();
+            }
+
+            for (String key :uri.getQueryParameterNames()) {
+                bundle.putString(key, uri.getQueryParameter(key));
             }
             Intent intent = new Intent(context, target);
             intent.putExtras(bundle);
