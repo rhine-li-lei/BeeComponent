@@ -1,4 +1,4 @@
-package com.lilei.login;
+package com.lilei.talking;
 
 import org.junit.Test;
 

@@ -1,7 +1,12 @@
-apply plugin: 'com.android.library'
+if (isRunAlone.toBoolean()) {
+    apply plugin: 'com.android.application'
+} else {
+    apply plugin: 'com.android.library'
+}
 
 android {
     compileSdkVersion rootProject.ext.android.compileSdkVersion
+    resourcePrefix "talking_"
 
     defaultConfig {
         minSdkVersion rootProject.ext.android.minSdkVersion
@@ -30,6 +35,21 @@ android {
         }
     }
 
+    sourceSets {
+        main {
+            if (isRunAlone.toBoolean()) {
+                manifest.srcFile 'src/main/runalone/AndroidManifest.xml'
+            } else {
+                manifest.srcFile 'src/main/AndroidManifest.xml'
+                //集成开发模式下排除runalone文件夹中的所有Java文件
+                java {
+                    exclude 'runalone/**'
+                }
+            }
+            java.srcDirs = ['src/main/java', 'src/main/runalone/java']
+            res.srcDirs = ['src/main/res', 'src/main/runalone/res']
+        }
+    }
 }
 
 dependencies {

@@ -1,4 +1,4 @@
-package com.lilei.login;
+package com.lilei.talking;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion rootProject.ext.android.compileSdkVersion
+    resourcePrefix "app_"
 
     defaultConfig {
         applicationId rootProject.ext.android.applicationId

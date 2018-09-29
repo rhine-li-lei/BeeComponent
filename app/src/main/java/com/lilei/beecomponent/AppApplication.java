@@ -15,6 +15,6 @@ public class AppApplication extends BaseApplication {
         super.onCreate();
         UIRouter.getInstance().registerUI("app");
         UIRouter.getInstance().registerUI("login");
-//        UIRouter.getInstance().registerUI("comp_talking");
+//        UIRouter.getInstance().registerUI("talking");
     }
 }
