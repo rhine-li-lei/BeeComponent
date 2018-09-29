@@ -18,7 +18,7 @@
 - 支持动态注册/反注册组件(IDynamicComponent)
 
 ## 使用
-[新建module指南 - 模块单独调试]()
+[新建module指南 - 模块单独调试](./comp_talking/src/main/runalone/explain.md)
 
 ## 参考文章
 - 组件化思想及源码
