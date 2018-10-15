@@ -8,12 +8,13 @@
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="login ui"/>
 
     <Button
-        android:id="@+id/button_login"
+        android:id="@+id/button_jump_to_register"
         android:layout_centerVertical="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="login" />
+        android:text="to register" />
 </RelativeLayout>

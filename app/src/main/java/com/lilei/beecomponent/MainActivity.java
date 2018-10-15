@@ -1,5 +1,6 @@
 package com.lilei.beecomponent;
 
+import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -17,7 +18,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void jumpToLogin(View view) {
-        if(UIRouter.getInstance().openUri(MainActivity.this, "BeeComp://login/login")){  // 可查看路由表
+        Bundle bundle = new Bundle();
+        bundle.putLong("jumptime", SystemClock.uptimeMillis());
+        if(UIRouter.getInstance().openUri(MainActivity.this, "BeeComp://login/login", bundle)){  // 可查看路由表
             finish();
         }
     }
