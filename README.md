@@ -44,9 +44,9 @@
 1. [Android studio User Guide The Top-level Build File](https://developer.android.com/studio/build/index.html#top-level)
 1. [ Gradle Docs 4.7 xtra properties](https://docs.gradle.org/current/userguide/writing_build_scripts.html#sec:extra_properties)
 
-- 注解
+- 注解相关技术
 1. [知乎专栏 聊聊Apt/Annotation Processor](https://zhuanlan.zhihu.com/p/38433630)
-1. [Android中使用AbstractProcessor在编译时生成代码 使用](https://blog.csdn.net/industriously/article/details/53932425)
+1. [Android 学习使用annotationprocessor自动生成java文件](https://blog.csdn.net/msn465780/article/details/78888668)
 1. [Android编译时注解APT实战（AbstractProcessor）](https://www.jianshu.com/p/07ef8ba80562)
 1. [ javapoet 官方github地址 （注意看REAGME）](https://github.com/square/javapoet)
 
